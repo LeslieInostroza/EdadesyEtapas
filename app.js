@@ -23,7 +23,7 @@ if ( age >= 1 && age <= 2) {
 
 } else if (age >=21){
     document.write("<div>" + age + " años" + " = Adult </div>");
-
+    alert('Pertences a Adult')
 } else {
     document.write("<div>" + age + " = Ingrese su edad en numero </div>");
     alert('ingrese su edad en numero')
