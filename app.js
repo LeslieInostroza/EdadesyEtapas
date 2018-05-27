@@ -17,10 +17,11 @@ if (age >=5 && age <=11){
 }
 
 if (age >=12 && age <= 17){
-    document.write("<div>" + age + " años" + " = Teen: La adolescencia puede ser un desafío para los padres. Su hijo a veces puede ser una fuente de frustración y exasperación, por no mencionar el estrés financiero. Pero estos años también traen muchos, muchos momentos de alegría, orgullo, risa y cercanía.</div>")
+    document.write("<div>" + age + " años" + " = Teen: La adolescencia puede ser un desafío para los padres. Su hijo a veces puede ser una fuente de frustración y exasperación, por no mencionar el estrés financiero. Pero estos años también traen muchos, muchos momentos de alegría, orgullo, risa y cercanía.</div>");
     alert('Perteneces a Teen')
 }
 
 if(age >=18 && age <= 20){
-    
+    document.write("<div>" + age + " años" + " = Young Adult: Un adulto joven que se va a una universidad o un trabajo lejos de casa tiene que construir un sistema de apoyo social desde cero. Al mismo tiempo, puede tener que aclimatarse a un entorno drásticamente diferente</div>");
+    alert('Perteneces a Young Adult')
 }
